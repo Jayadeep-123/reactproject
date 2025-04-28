@@ -1,0 +1,122 @@
+.topbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    height: 56px;
+    width: 75%; 
+    background-color: #fff; 
+    padding: 0 20px;
+    border-bottom: 2px solid #ddd; 
+    margin-left: 240px; 
+  }
+   
+  .search-container {
+    position: relative;
+    flex: 1;
+    max-width: 300px; 
+  }
+   
+  .search-bar input {
+    width: 100%;
+    padding: 8px 16px 8px 44px;
+    border: none; 
+    outline: none; 
+    font-size: 14px;
+    background-color: transparent; 
+    box-sizing: border-box;
+    color: #333; 
+  }
+   
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    left: 20px; 
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #888;
+  }
+  .topbar-icons {
+    display: flex;
+    align-items: center;
+    gap: 16px; 
+  }
+   
+  .topbar-icons .feedback {
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+    cursor: pointer;
+    font-size: 14px;
+    color: #555;
+  }
+   
+  .topbar-icons i {
+    font-size: 20px; 
+    cursor: pointer;
+    color: #555;
+  }
+  /*secondary top Bar*/
+
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+    margin-left: 250px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .section-header h2 {
+    font-weight: 700;
+    margin: 0;
+    font-size: 30px;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .actions button {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .filter-btn {
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    position: relative;
+  }
+  
+  .export-btn {
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+  }
+  
+  .add-btn {
+    background-color: #3d00ff;
+    color: white;
+    font-weight: 500;
+  }
+  
+  .notification-dot {
+    background-color: red;
+    color: white;
+    font-size: 11px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 16px;
+    position: absolute;
+    top: -6px;
+    left: 58px;
+  }
+  
