@@ -8,67 +8,67 @@ function EditField() {
           <Sidebar />
             <Topbar />
             <div className="new-field-container">
-                <div className="popup">
-                    <div className="header">
+                <div className="popup1">
+                    <div className="header1">
                         <h2>AddNewField</h2>
-                        <button className="close-btn">&times;</button>
+                        <button className="close-btn1">&times;</button>
                     </div>
 
-                    <div className="form-row">
-                        <div className="form-group small">
+                    <div className="form-row1">
+                        <div className="form-group smalll">
                             <label>Acadamic ID</label>
                             <input type="text" placeholder="Enter Value" />
                         </div>
-                        <div className="form-group small">
+                        <div className="form-group smalll">
                             <label>Join Year</label>
                             <input type="text" placeholder="Enter Value" />
                         </div>
-                        <div className="form-group big">
+                        <div className="form-group big1">
                             <label>Acadamic Year</label>
                             <input type="text" placeholder="Enter Value" />
                         </div>
                     </div>
 
                     <div className="form-row">
-                        <div className="form-group small">
+                        <div className="form-group smalll">
                             <label>Class ID</label>
                             <input type="text" placeholder="Enter Value" />
                         </div>
-                        <div className="form-group small">
+                        <div className="form-group smalll">
                             <label>Receipt Status</label>
                             <input type="text" placeholder="Enter Value" />
                         </div>
-                        <div className="form-group big">
+                        <div className="form-group big1">
                             <label>Status</label>
                             <input type="text" placeholder="Enter Value" />
                         </div>
                     </div>
 
                     <div className="form-row">
-                        <div className="form-group big">
+                        <div className="form-group big1">
                             <label>Fy Start On</label>
                             <input type="text" placeholder="Enter Value" />
                         </div>
-                        <div className="form-group big">
+                        <div className="form-group big1">
                             <label>Fy End On</label>
                             <input type="text" placeholder="Enter Value" />
                         </div>
                     </div>
 
                     <div className="form-row">
-                        <div className="form-group big">
+                        <div className="form-group big1">
                             <label>Start On</label>
                             <input type="text" placeholder="Enter Value" />
                         </div>
-                        <div className="form-group big">
+                        <div className="form-group big1">
                             <label>End On</label>
                             <input type="text" placeholder="Enter Value" />
                         </div>
                     </div>
 
-                    <div className="button-group">
-                        <button className="delete-btn">Delete</button>
-                        <button className="edit-btn">AddNewField</button>
+                    <div className="button-group1">
+                        <button className="delete-btnn">Delete</button>
+                        <button className="edit-btnn">AddNewField</button>
                     </div>
                 </div>
             </div>

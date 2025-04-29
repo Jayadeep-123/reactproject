@@ -8,10 +8,10 @@ import AddNewField from './components/AddNewField';
 const App = () => {
   return (
     <div>
-      {/* <Sidebar/>
+      <Sidebar/>
       <Topbar/>
-      <DashBoard/> */}
-        <EditForm/> 
+      <DashBoard/>
+        {/* <EditForm/>  */}
         {/* <AddNewField/>  */}
       
     </div>

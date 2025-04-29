@@ -1,4 +1,4 @@
-/* .new-field-container{
+.new-field-container{
   margin: -21px;
   margin-left:210px;
   width:80.5%;
@@ -14,10 +14,10 @@
 }
 
 
-.popup {
+.popup1 {
 background: white;
-height: 400px;
-width: 420px; 
+height: 372px;
+width: 370px; 
 padding: 20px;
 border-radius: 10px;
 box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
@@ -25,26 +25,26 @@ box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 position: relative;
 }
 
-.header {
+.header1 {
 display: flex;
 justify-content: space-between;
 align-items: center;
 }
 
-.header h2 {
+.header1 h2 {
 font-size: 18px;
 font-weight: 400;
 margin: 0;
 }
 
-.close-btn {
+.close-btn1 {
 background: none;
 border: none;
 font-size: 22px;
 cursor: pointer;
 }
 
-.form-row {
+.form-row1 {
 display: flex;
 gap: 12px;
 margin-top: 15px;
@@ -61,16 +61,11 @@ margin-bottom: 4px;
 color: #555;
 }
 
-.form-group.small input {
-width: 90px;
+.form-group.smalll input {
+width: 70px;
 }
-
-.form-group.medium input {
-  width: 1305px;
-  }
-
-.form-group.big input {
-width: 170px;
+.form-group.big1 input {
+width: 160px;
 }
 
 input {
@@ -80,13 +75,13 @@ border-radius: 6px;
 font-size: 14px;
 }
 
-.button-group {
+.button-group1 {
 display: flex;
 justify-content: space-between;
 margin-top: 20px;
 }
 
-.delete-btn {
+.delete-btnn {
 background: none;
 border: 1px solid red;
 color: red;
@@ -96,12 +91,13 @@ cursor: pointer;
 font-weight: bold;
 }
 
-.edit-btn {
+.edit-btnn {
 background: #3b28ff;
 border: none;
 color: white;
+width:270px;
 padding: 8px 90px;
 border-radius: 6px;
 cursor: pointer;
 font-weight: bold;
-} */
+}
