@@ -1,11 +1,14 @@
 .new-field-container{
     margin: -21px;
     margin-left:210px;
+    padding-right: 190px;
     width:80.5%;
     background-color:black;
     height:90vh;
     margin-top: 0.35px;
+    padding-top: 57px;
  
+  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,6 +39,7 @@
 .header h2 {
   font-size: 18px;
   margin: 0;
+  
 }
  
 .close-btn {

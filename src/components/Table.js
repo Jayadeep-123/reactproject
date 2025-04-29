@@ -69,6 +69,11 @@ function DashBoard() {
     setData(prevData => [...prevData, newField]);
   };
 
+  // 👉 Add this delete handler
+  const handleDeleteRow = (indexToDelete) => {
+    setData(prevData => prevData.filter((_, index) => index !== indexToDelete));
+  };
+
   return (
     <>
       <div className="dashboard-container">
@@ -121,7 +126,7 @@ function DashBoard() {
                   <td>{item.START_ON}</td>
                   <td>{item.END_ON}</td>
                   <td>
-                    <button className="icon-btn" title="Delete">
+                    <button className="icon-btn" title="Delete" onClick={() => handleDeleteRow(index)}>
                       <i className="fas fa-trash-alt"></i>
                     </button>
                     <button className="icon-btn" title="Edit">

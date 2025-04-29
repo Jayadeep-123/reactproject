@@ -1,6 +1,7 @@
+
 .dashboard-container{
   margin-left:240px;
-  /* margin-top:0px; */
+   margin-top:50px; 
 }
 
 .header {
@@ -92,18 +93,20 @@ button {
 }
 
 .headings {
-  background-color: rgb(236, 242, 244);
+  color: #84919A;
 }
 
 
 .values-styling tr {
   border-bottom: 1px solid hsl(0, 100%, 99%);
+  color:#252C32;
 }
 
 
 .city-table th, .city-table td {
   text-align: center;
   vertical-align: middle;
+  
 }
 
 
@@ -114,7 +117,7 @@ button {
   border: none;
   cursor: pointer;
   font-size: 16px;
-  color: #333;
+  color:Gray;
   transition: color 0.2s ease;
 }
  
