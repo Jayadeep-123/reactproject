@@ -1,4 +1,4 @@
-
+  
 import React from 'react';
 import EditForm from './components/viewModel';
 import Sidebar from './components/sidebar';
@@ -8,10 +8,10 @@ import AddNewField from './components/AddNewField';
 const App = () => {
   return (
     <div>
-      <Sidebar/>
+      {/* <Sidebar/>
       <Topbar/>
-      <DashBoard/>
-        {/* <EditForm/>  */}
+      <DashBoard/> */}
+        <EditForm/> 
         {/* <AddNewField/>  */}
       
     </div>
@@ -19,3 +19,4 @@ const App = () => {
 };
  
 export default App;
+

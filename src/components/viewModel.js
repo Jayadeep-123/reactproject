@@ -17,13 +17,13 @@ function EditField() {
                     <div className="form-row">
                         <div className="form-group small">
                             <label>Acadamic ID</label>
-                            <input type="text" placeholder="Enter Value" />
+                            <input type="text"  />
                         </div>
                         <div className="form-group small">
                             <label>Join Year</label>
-                            <input type="text" placeholder="Enter Value" />
+                            <input type="text"  />
                         </div>
-                        <div className="form-group big">
+                        <div className="form-group medium">
                             <label>Acadamic Year</label>
                             <input type="text" placeholder="Enter Value" />
                         </div>
@@ -32,13 +32,13 @@ function EditField() {
                     <div className="form-row">
                         <div className="form-group small">
                             <label>Class ID</label>
-                            <input type="text" placeholder="Enter Value" />
+                            <input type="text"  />
                         </div>
                         <div className="form-group small">
                             <label>Receipt Status</label>
-                            <input type="text" placeholder="Enter Value" />
+                            <input type="text"  />
                         </div>
-                        <div className="form-group big">
+                        <div className="form-group medium">
                             <label>Status</label>
                             <input type="text" placeholder="Enter Value" />
                         </div>

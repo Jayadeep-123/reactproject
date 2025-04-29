@@ -1,111 +1,112 @@
 .new-field-container{
-    margin: -21px;
-    margin-left:210px;
-    padding-right: 190px;
-    width:80.5%;
-    background-color:black;
-    height:90vh;
-    margin-top: 0.35px;
-    padding-top: 57px;
- 
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
- 
- 
+  margin: -21px;
+  margin-left:210px;
+  width:80.5%;
+  background-color:black;
+  height:90vh;
+  margin-top: 0.35px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
 }
- 
- 
+
+
 /* Popup */
 .popup {
-  background: white;
-  height: 502px;
-  width: 480px; 
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
- 
-  position: relative;
+background: white;
+height: 350px;
+width: 370px; 
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+
+position: relative;
 }
- 
+
 /* Header */
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
- 
+
 .header h2 {
-  font-size: 18px;
-  margin: 0;
-  
+font-size: 18px;
+font-weight: 400;
+margin: 0;
 }
- 
+
 .close-btn {
-  background: none;
-  border: none;
-  font-size: 22px;
-  cursor: pointer;
+background: none;
+border: none;
+font-size: 22px;
+cursor: pointer;
 }
- 
+
 /* Form Rows */
 .form-row {
-  display: flex;
-  gap: 10px;
-  margin-top: 15px;
+display: flex;
+gap: 12px;
+margin-top: 15px;
 }
- 
+
 .form-group {
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 }
- 
+
 .form-group label {
-  font-size: 12px;
-  margin-bottom: 4px;
-  color: #555;
+font-size: 12px;
+margin-bottom: 4px;
+color: #555;
 }
- 
+
 /* Exact small and big box sizes */
 .form-group.small input {
-  width: 70px;
+width: 90px;
 }
- 
+
+.form-group.medium input {
+  width: 130px;
+  }
+
 .form-group.big input {
-  width: 180px;
+width: 170px;
 }
- 
+
 input {
-  padding: 6px 8px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 14px;
+padding: 6px 8px;
+border: 1px solid #ccc;
+border-radius: 6px;
+font-size: 14px;
 }
- 
+
 /* Buttons */
 .button-group {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
 }
- 
+
 .delete-btn {
-  background: none;
-  border: 1px solid red;
-  color: red;
-  padding: 8px 20px;
-  border-radius: 6px;
-  cursor: pointer;
-  font-weight: bold;
+background: none;
+border: 1px solid red;
+color: red;
+padding: 8px 20px;
+border-radius: 6px;
+cursor: pointer;
+font-weight: bold;
 }
- 
+
 .edit-btn {
-  background: #3b28ff;
-  border: none;
-  color: white;
-  padding: 8px 90px;
-  border-radius: 6px;
-  cursor: pointer;
-  font-weight: bold;
+background: #3b28ff;
+border: none;
+color: white;
+padding: 8px 90px;
+border-radius: 6px;
+cursor: pointer;
+font-weight: bold;
 }

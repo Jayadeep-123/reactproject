@@ -2,11 +2,11 @@ import { useState } from 'react';
 import '../styles/Table.css';
 
 function DashBoard() {
-  const [data, setData] = useState([
+  const [data] = useState([
     {
       ACADEMIC_ID: "Andhra Pradesh",
       JOIN_YEAR: "Guntur",
-      ACADEMIC_YEAR: "Gardens Branch",
+      ACADEMIC_YEAR: "Grands Branch",
       CLASS_ID: "7654",
       RECEIPT_STATUS: "Updated",
       STATUS: "Updated",
@@ -18,7 +18,7 @@ function DashBoard() {
     {
       ACADEMIC_ID: "Andhra Pradesh",
       JOIN_YEAR: "Guntur",
-      ACADEMIC_YEAR: "Gardens Branch",
+      ACADEMIC_YEAR: "Grands Branch",
       CLASS_ID: "7654",
       RECEIPT_STATUS: "Updated",
       STATUS: "Updated",
@@ -29,50 +29,29 @@ function DashBoard() {
     },
     {
       ACADEMIC_ID: "Andhra Pradesh",
-      JOIN_YEAR: "Vijayawada",
-      ACADEMIC_YEAR: "BenzCircle Branch",
-      CLASS_ID: "8765",
-      RECEIPT_STATUS: "Pending",
-      STATUS: "Pending",
-      FY_START_ON: "Pending",
-      FY_END_ON: "Pending",
-      START_ON: "Pending",
-      END_ON: "Andhra Pradesh"
-    },
-    {
-      ACADEMIC_ID: "Karnataka",
-      JOIN_YEAR: "Bangalore",
-      ACADEMIC_YEAR: "Central Branch",
-      CLASS_ID: "9876",
+      JOIN_YEAR: "Guntur",
+      ACADEMIC_YEAR: "Grands Branch",
+      CLASS_ID: "7654",
       RECEIPT_STATUS: "Updated",
       STATUS: "Updated",
       FY_START_ON: "Updated",
       FY_END_ON: "Updated",
       START_ON: "Updated",
-      END_ON: "Karnataka"
+      END_ON: "Andhra Pradesh"
+    },
+    {
+      ACADEMIC_ID: "Andhra Pradesh",
+      JOIN_YEAR: "Guntur",
+      ACADEMIC_YEAR: "Grands Branch",
+      CLASS_ID: "7654",
+      RECEIPT_STATUS: "Updated",
+      STATUS: "Updated",
+      FY_START_ON: "Updated",
+      FY_END_ON: "Updated",
+      START_ON: "Updated",
+      END_ON: "Andhra Pradesh"
     }
   ]);
-
-  const handleAddNewField = () => {
-    const newField = {
-      ACADEMIC_ID: "Andhra Pradesh",
-      JOIN_YEAR: "Eluru",
-      ACADEMIC_YEAR: "Eluru Branch",
-      CLASS_ID: "9875",
-      RECEIPT_STATUS: "Updated",
-      STATUS: "Pending",
-      FY_START_ON: "Updated",
-      FY_END_ON: "Updated",
-      START_ON: "Pending",
-      END_ON: "Andhra Pradesh"
-    };
-    setData(prevData => [...prevData, newField]);
-  };
-
-  // 👉 Add this delete handler
-  const handleDeleteRow = (indexToDelete) => {
-    setData(prevData => prevData.filter((_, index) => index !== indexToDelete));
-  };
 
   return (
     <>
@@ -86,12 +65,11 @@ function DashBoard() {
             <button className="export">
               <span className="icon">⬆️</span> Export
             </button>
-            <button className="add-new-field" onClick={handleAddNewField}>+ Add New Field</button>
+            <button className="add-new-field">+ Add New Field</button>
           </div>
         </div>
         <hr className="narrow-hr" />
 
-        {/* table data */}
         <div className="table-scroll-container">
           <table className="city-table">
             <thead className="headings">
@@ -126,7 +104,7 @@ function DashBoard() {
                   <td>{item.START_ON}</td>
                   <td>{item.END_ON}</td>
                   <td>
-                    <button className="icon-btn" title="Delete" onClick={() => handleDeleteRow(index)}>
+                    <button className="icon-btn" title="Delete">
                       <i className="fas fa-trash-alt"></i>
                     </button>
                     <button className="icon-btn" title="Edit">
