@@ -17,20 +17,26 @@
 
 .buttons {
   display: flex;
-  gap: 10px;
+  gap: 2px;
+  align-items: center; /* vertically aligns buttons */
 }
 
 button {
   padding: 10px;
   border: none;
   cursor: pointer;
+
 }
 
 .filter {
   background-color: white;
   border: 1px solid #ccc;
   position: relative;
-  border-radius: 10px;
+  border-radius: 8px;
+  height: 32px;
+  width:85px;
+  margin-right: 8px;
+  
 }
 
 .filter .notification {
@@ -39,20 +45,34 @@ button {
   border-radius: 50%;
   padding: 2px 6px;
   position: absolute;
-  top: -5px;
+  top: -8px;
   right: -5px;
+  
 }
 
 .export {
   background-color: white;
   border: 1px solid #ccc;
   border-radius: 10px;
+  border-radius: 8px;
+  height: 32px;
+  width:85px;
+  margin-right: 15px;
+  
 }
 
 .add-new-field {
   background-color: blue;
   color: white;
-  border-radius: 10px;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 13px;
+  font-weight: 400;
+  height: 30px;
+  line-height: normal; /* Changed this line */
+  display: flex;
+  align-items: center;
+  width: 130px;
 }
 
 .narrow-hr {
@@ -82,7 +102,7 @@ button {
   padding: 5px;
   font-weight: 400;
   white-space: nowrap;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #f0ecec;
   font-size: 12.5px;
 }
 
@@ -96,7 +116,7 @@ button {
 }
 
 .headings {
-  color: #a5a9ac;
+  color: #84919A;
 }
 
 .values-styling tr {

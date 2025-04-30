@@ -1,31 +1,24 @@
 .new-field-container{
   margin: -21px;
-  margin-left:210px;
+  margin-left:220px;
   width:80.5%;
   background-color:black;
   height:90vh;
   margin-top: 0.35px;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
-
 }
-
-
 /* Popup */
 .popup {
 background: white;
-height: 350px;
-width: 370px; 
+height: 372px;
+width: 377px; 
 padding: 20px;
 border-radius: 10px;
 box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
-
 position: relative;
 }
-
 /* Header */
 .header {
 display: flex;
@@ -35,9 +28,10 @@ align-items: center;
 
 .header h2 {
 font-size: 18px;
-font-weight: 400;
+font-weight: 500;
 margin: 0;
 }
+
 
 .close-btn {
 background: none;
@@ -45,23 +39,21 @@ border: none;
 font-size: 22px;
 cursor: pointer;
 }
-
 /* Form Rows */
 .form-row {
 display: flex;
 gap: 12px;
 margin-top: 15px;
 }
-
 .form-group {
 display: flex;
 flex-direction: column;
 }
-
 .form-group label {
-font-size: 12px;
+font-size: 13px;
 margin-bottom: 4px;
-color: #555;
+color: #344054;
+font-weight: 400;
 }
 
 /* Exact small and big box sizes */
@@ -101,13 +93,14 @@ cursor: pointer;
 font-weight: bold;
 }
 
-.edit-btn {
-background: #3b28ff;
-border: none;
-color: white;
-padding: 8px 90px;
-border-radius: 6px;
-cursor: pointer;
-font-weight: bold;
-width:270px;
-}
+.edit-btn{
+  background: #3b28ff;
+  border: none;
+  color: white;
+  width:270px;
+  padding: 8px 90px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  }
+

@@ -1,27 +1,28 @@
 import '../styles/AddNewFiels.css';
 import Sidebar from './sidebar';
 import Topbar from './topbar';
+import { Link } from 'react-router-dom';
 
 function EditField() {
     return (
         <>
           <Sidebar />
             <Topbar />
-            <div className="new-field-container">
+            <div className="new-field-container1">
                 <div className="popup1">
                     <div className="header1">
                         <h2>AddNewField</h2>
-                        <button className="close-btn1">&times;</button>
+                        <Link to='/'><button className="close-btn1">&times;</button></Link>
                     </div>
 
                     <div className="form-row1">
                         <div className="form-group smalll">
                             <label>Acadamic ID</label>
-                            <input type="text" placeholder="Enter Value" />
+                            <input type="text" />
                         </div>
                         <div className="form-group smalll">
                             <label>Join Year</label>
-                            <input type="text" placeholder="Enter Value" />
+                            <input type="text" />
                         </div>
                         <div className="form-group big1">
                             <label>Acadamic Year</label>
@@ -32,11 +33,11 @@ function EditField() {
                     <div className="form-row">
                         <div className="form-group smalll">
                             <label>Class ID</label>
-                            <input type="text" placeholder="Enter Value" />
+                            <input type="text"  />
                         </div>
                         <div className="form-group smalll">
                             <label>Receipt Status</label>
-                            <input type="text" placeholder="Enter Value" />
+                            <input type="text"  />
                         </div>
                         <div className="form-group big1">
                             <label>Status</label>

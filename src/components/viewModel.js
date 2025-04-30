@@ -1,6 +1,7 @@
 import '../styles/ViewModal.css';
 import Sidebar from './sidebar';
 import Topbar from './topbar';
+import { Link } from 'react-router-dom';
 
 function EditField() {
     return (
@@ -11,7 +12,9 @@ function EditField() {
                 <div className="popup">
                     <div className="header">
                         <h2>View</h2>
-                        <button className="close-btn">&times;</button>
+                      <Link to = '/'> 
+                      <button className="close-btn">&times;</button>
+                      </Link>
                     </div>
 
                     <div className="form-row">

@@ -1,4 +1,4 @@
-.new-field-container{
+.new-field-container1{
   margin: -21px;
   margin-left:210px;
   width:80.5%;
@@ -9,11 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-
 }
-
-
 .popup1 {
 background: white;
 height: 372px;
@@ -21,7 +17,6 @@ width: 370px;
 padding: 20px;
 border-radius: 10px;
 box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
-
 position: relative;
 }
 
