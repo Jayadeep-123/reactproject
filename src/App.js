@@ -15,7 +15,8 @@ const App = () => {
         <Topbar />
 
         <Routes>
-          <Route path="/" element={<DashBoard />} />
+          <Route path="/" element={<Sidebar/>} />
+          <Route path="/Dashboard" element={<DashBoard />} />
           <Route path="/edit" element={<EditForm />} />
           <Route path="/add" element={<AddNewField />} />
         </Routes>

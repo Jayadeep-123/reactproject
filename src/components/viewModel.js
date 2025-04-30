@@ -12,7 +12,7 @@ function EditField() {
                 <div className="popup">
                     <div className="header">
                         <h2>View</h2>
-                      <Link to = '/'> 
+                      <Link to = '/dashboard'> 
                       <button className="close-btn">&times;</button>
                       </Link>
                     </div>

@@ -73,7 +73,10 @@ button {
   display: flex;
   align-items: center;
   width: 130px;
+  text-decoration: none;
+  
 }
+
 
 .narrow-hr {
   width: 97%;
