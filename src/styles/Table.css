@@ -154,7 +154,8 @@ button {
   left: 50.5%;
   transform: translateX(-50%);
   z-index: 1000;
-  width: 75%;
+  width: 1120px;
+  height: 42px;
   margin-left: 110px;
   margin-bottom: -17px;
   color: #EAECF0;

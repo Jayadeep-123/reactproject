@@ -51,14 +51,13 @@
   color: #a2a5a8;
   transition: background-color 0.2s ease-in-out;
   border-radius: 4px;
-  
 }
 
 .sidebar-link {
   text-decoration: none;
   color: #666;
   display: block;
-  border-radius: 4px;
+  border-radius: 4px; 
   padding: 4px 8px;
 }
 
@@ -67,23 +66,28 @@
 }
 
 .sidebar-link.active {
-  color:#252C32;
+  color: #252C32;
   font-weight: 600;
 }
 
-.sidebar ul li .icon {
-  font-size: 16px;
-  color: #4a4a4a;
+/* Dropdown icon color inheritance */
+.sidebar ul li svg.icon path {
+  fill: currentColor;
 }
 
+/* Active dropdown styling */
 .dropdown-btn.active {
   background-color: #D7EDFF;
-  color: white;
+  color: #3425FF;
+  font-weight: 600;
 }
 
+/* Apply active color to icon, text, and arrow */
+.dropdown-btn.active svg,
 .dropdown-btn.active i,
 .dropdown-btn.active span {
-  color:#3425FF;
+  color: #3425FF;
+  fill: currentColor;
 }
 
 .dropdown-content-vertical {
@@ -94,15 +98,15 @@
 .dropdown-content-vertical li {
   font-size: 13px;
   color: #666;
-  padding: 3px 0;
+  padding: 4px 8px;
   cursor: pointer;
 }
 
 .dropdown-content-vertical li:hover {
   background-color: #d6ecff;
-  border-radius: 4px;
 }
 
+/* Arrow rotation for dropdown */
 .arrow {
   margin-left: auto;
   transition: transform 0.3s ease;
