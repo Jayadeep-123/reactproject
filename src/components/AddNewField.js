@@ -11,7 +11,7 @@ function EditField() {
             <div className="new-field-container1">
                 <div className="popup1">
                     <div className="header1">
-                        <h2>AddNewField</h2>
+                        <h2>Add New Field</h2>
                         <Link to='/dashboard'><button className="close-btn1">&times;</button></Link>
                     </div>
 
@@ -68,8 +68,9 @@ function EditField() {
                     </div>
 
                     <div className="button-group1">
-                        <button className="delete-btnn">Delete</button>
-                        <button className="edit-btnn">AddNewField</button>
+                        <Link to ='/dashboard'>
+                        <button className="delete-btnn">Cancel</button></Link>
+                        <button className="edit-btnn">Add Field</button>
                     </div>
                 </div>
             </div>

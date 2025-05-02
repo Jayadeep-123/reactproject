@@ -44,20 +44,19 @@ const Sidebar = () => {
 
             {isStudentOpen && (
               <ul className="dropdown-content-vertical">
-                <li><i className='sidebar-link'/>State</li>
-                <li><i className='sidebar-link'/>City</li>
-                <li><i className='sidebar-link'/>Campus</li>
-                {/* <li><i className='sidebar-link'/>Fee Payment Year</li> */}
+                <li><i className='sidebar-link1'/>State</li>
+                <li><i className='sidebar-link1'/>City</li>
+                <li><i className='sidebar-link1'/>Campus</li>
                 <li><NavLink to="/dashboard" className={({ isActive }) => isActive ? 'sidebar-link active' : 'sidebar-link'}>
                     Fee Payment Year</NavLink>
                 </li>
-                <li><i className='sidebar-link'/>Fee Heads</li>
-                <li><i className='sidebar-link'/>Organization</li>
-                <li><i className='sidebar-link'/>Card Type</li>
-                <li><i className='sidebar-link'/>Stream</li>
-                <li><i className='sidebar-link'/>Program Name</li>
-                <li><i className='sidebar-link'/>Exam Program</li>
-                <li><i className='sidebar-link'/>Course Track</li>
+                <li><i className='sidebar-link1'/>Fee Heads</li>
+                <li><i className='sidebar-link1'/>Organization</li>
+                <li><i className='sidebar-link1'/>Card Type</li>
+                <li><i className='sidebar-link1'/>Stream</li>
+                <li><i className='sidebar-link1'/>Program Name</li>
+                <li><i className='sidebar-link1'/>Exam Program</li>
+                <li><i className='sidebar-link1'/>Course Track</li>
               </ul>
             )}
 

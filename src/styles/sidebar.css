@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 210px;
+  width: 209px;
   height: 100vh;
   background-color: #f6f8f9;
   display: flex;
@@ -55,10 +55,13 @@
 
 .sidebar-link {
   text-decoration: none;
-  color: #666;
+  color: #a2a5a8;
   display: block;
   border-radius: 4px; 
-  padding: 4px 8px;
+  margin-left: 25px;
+}
+.sidebar-link1{
+  margin-left: 15px;
 }
 
 .sidebar-link:hover {
@@ -66,23 +69,20 @@
 }
 
 .sidebar-link.active {
-  color: #252C32;
+  color: #0678dc;
   font-weight: 600;
 }
 
-/* Dropdown icon color inheritance */
 .sidebar ul li svg.icon path {
   fill: currentColor;
 }
 
-/* Active dropdown styling */
 .dropdown-btn.active {
   background-color: #D7EDFF;
   color: #3425FF;
   font-weight: 600;
 }
 
-/* Apply active color to icon, text, and arrow */
 .dropdown-btn.active svg,
 .dropdown-btn.active i,
 .dropdown-btn.active span {
@@ -106,7 +106,6 @@
   background-color: #d6ecff;
 }
 
-/* Arrow rotation for dropdown */
 .arrow {
   margin-left: auto;
   transition: transform 0.3s ease;

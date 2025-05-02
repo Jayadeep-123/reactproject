@@ -69,13 +69,15 @@ button {
   font-size: 13px;
   font-weight: 400;
   height: 30px;
-  line-height: normal; /* Changed this line */
+  line-height: normal;
   display: flex;
   align-items: center;
   width: 130px;
-  text-decoration: none;
-  
+  text-decoration: none ;
+  border: none;
+  outline: none;
 }
+
 
 
 .narrow-hr {
@@ -110,7 +112,7 @@ button {
 }
 
 .city-table td {
-  text-align: left; /* ✅ aligned to start (left) */
+  text-align: left; 
   vertical-align: middle;
   padding: 5px;
   white-space: nowrap;
