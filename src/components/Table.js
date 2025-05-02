@@ -185,6 +185,7 @@ function DashBoard() {
       setCurrentPage(pageNumber);
     }
   };
+  
 
   return (
     <div className="dashboard-container">
