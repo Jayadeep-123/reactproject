@@ -120,3 +120,130 @@
   padding-bottom: 10px;
   border-top: 1px solid #ddd;
 }
+
+
+/* With responsive css rem and em and VW and VH*/
+/* .sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 12.969vw;
+  height: 100vh; 
+  background-color: #f6f8f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.5rem; 
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 0.875rem;
+  overflow-y: auto;
+  border-right: 1px solid #e0e0e0;
+}
+
+.top-section {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  margin-bottom: 0.625rem;
+}
+
+.logo {
+  max-width: 8rem;
+  height: auto;
+}
+
+.menu-section ul,
+.bottom-section ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;  
+  padding: 0.25rem 0.5rem; 
+  margin-bottom: 0.25rem;
+  cursor: pointer;
+  color: #a2a5a8;
+  transition: background-color 0.2s ease-in-out;
+  border-radius: 0.25rem;
+}
+
+.sidebar-link {
+  text-decoration: none;
+  color: #a2a5a8;
+  display: block;
+  border-radius: 0.25rem;
+  margin-left: 1.5625rem;
+  font-size: 0.75rem; 
+}
+
+.sidebar-link1 {
+  margin-left: 0.9375rem;
+}
+
+.sidebar-link:hover {
+  background-color: #e0f0ff;
+}
+
+.sidebar-link.active {
+  color: #0678dc;
+  font-weight: 600;
+}
+
+.sidebar ul li svg.icon path {
+  fill: currentColor;
+}
+
+.dropdown-btn.active {
+  background-color: #D7EDFF;
+  color: #3425FF;
+  font-weight: 600;
+}
+
+.dropdown-btn.active svg,
+.dropdown-btn.active i,
+.dropdown-btn.active span {
+  color: #3425FF;
+  fill: currentColor;
+}
+
+.dropdown-content-vertical {
+  padding-left: 1.25rem;
+  margin-top: 0.3125rem;
+}
+
+.dropdown-content-vertical li {
+  font-size: 0.8125rem;
+  color: #666;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+}
+
+.dropdown-content-vertical li:hover {
+  background-color: #d6ecff;
+}
+
+.arrow {
+  margin-left: auto;
+  transition: transform 0.3s ease;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.bottom-section {
+  margin-top: auto;
+  padding-bottom: 0.625rem;
+  border-top: 1px solid #ddd;
+} */

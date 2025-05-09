@@ -20,7 +20,7 @@
 .buttons {
   display: flex;
   gap: 2px;
-  align-items: center; /* vertically aligns buttons */
+  align-items: center;
 }
 
 button {
@@ -30,7 +30,8 @@ button {
 }
 
 /* Filter & Export Buttons */
-.filter, .export {
+.filter,
+.export {
   background-color: white;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -70,9 +71,9 @@ button {
   display: flex;
   align-items: center;
   width: 130px;
-  text-decoration: none;
   border: none;
   outline: none;
+  text-decoration: none;
 }
 
 /* Horizontal Line */
@@ -100,23 +101,32 @@ button {
 
 /* Table Headers */
 .city-table th {
+  font-weight: 400;
+  white-space: nowrap;
+  font-size: 12.5px;
   text-align: left;
   vertical-align: middle;
   padding: 5px;
-  font-weight: 400;
-  white-space: nowrap;
-  border-bottom: 1px solid #f0ecec;
-  font-size: 12.5px;
+  background: #f8f8f8;
+  border-bottom: 1px solid #ccc;
+  border-left: none;
+  border-right: none;
+  border-top: none; 
 }
+
 
 /* Table Cells */
 .city-table td {
-  text-align: left; 
+  text-align: left;
   vertical-align: middle;
   padding: 5px;
   white-space: nowrap;
-  border-bottom: 1px solid #fffafa;
   font-size: 12.5px;
+  border-top: none;
+  border-bottom: 1px solid #ccc;
+  border-left: none;
+  border-right: none;
+  background: white;
 }
 
 /* Sticky First Column */
@@ -126,30 +136,24 @@ button {
   left: 0;
   background: white;
   z-index: 2;
-  box-shadow: 2px 0 5px rgba(230, 20, 20, 0.05); /* Optional: adds a subtle separation */
+  box-shadow: 2px 0 5px rgba(230, 20, 20, 0.05);
 }
+
 .city-table thead th:first-child {
   z-index: 4;
   background: white;
 }
+
 .city-table th:first-child {
   position: sticky;
   left: 0;
   top: 0;
   background: #f8f8f8;
-  z-index: 3; /* Must be higher than td */
+  z-index: 3;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Sticky header for rest of header */
-.city-table thead th {
-  position: sticky;
-  top: 0;
-  background: #f8f8f8;
-  z-index: 2;
-}
-
-/* Sticky Table Header */
 .city-table thead th {
   position: sticky;
   top: 0;
@@ -159,15 +163,15 @@ button {
 
 /* Row Styling */
 .headings {
-  color: #84919A;
+  color: #84919a;
 }
 
 .values-styling tr {
   border-bottom: 1px solid hsl(0, 100%, 99%);
-  color: #252C32;
+  color: #252c32;
 }
 
-/* Delete & Update Icons */
+/* Icon Button */
 .icon-btn {
   margin-right: 8px;
   background: none;
@@ -198,7 +202,7 @@ button {
   height: 42px;
   margin-left: 110px;
   margin-bottom: -17px;
-  color: #EAECF0;
+  color: #eaecf0;
 }
 
 .pagination-btn {
@@ -239,3 +243,4 @@ button {
   padding: 8px 12px;
   color: #999;
 }
+  
